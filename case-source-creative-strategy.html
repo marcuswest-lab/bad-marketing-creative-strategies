@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Case Source — Meta Creative Strategy</title>
+<style>
+  @page { size: letter portrait; margin: 0.45in; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #14161a; margin: 0; padding: 22px 26px; line-height: 1.4; font-size: 11px;
+  }
+  h1 { font-size: 23px; margin: 0 0 3px; letter-spacing: -.4px; }
+  h2 { font-size: 13px; margin: 0 0 8px; text-transform: uppercase; letter-spacing: .5px;
+       background:#0f1b2d; color:#fff; display:inline-block; padding:4px 11px; border-radius:5px; }
+  .sub { color: #1f6feb; font-weight: 700; font-size: 11.5px; margin: 0 0 4px; }
+  .meta { color:#5a6572; font-size:10.5px; margin:0 0 4px; }
+  section { margin-top: 24px; break-inside: avoid; }
+  .kpi-bar { display:grid; grid-template-columns: repeat(4,1fr); gap:10px; margin-top:14px; }
+  .kpi { border:1.5px solid #0f1b2d; border-radius:7px; padding:8px 10px; }
+  .kpi b { display:block; color:#1f6feb; font-size:9.5px; text-transform:uppercase; letter-spacing:.4px; margin-bottom:3px; }
+  .kpi span { font-size:14px; font-weight:700; }
+  table { width:100%; border-collapse:collapse; margin-top:8px; font-size:9.6px; }
+  th, td { border:1px solid #c3c8d0; padding:5px 7px; text-align:left; vertical-align:top; }
+  th { background:#eaf1fb; font-weight:700; }
+  .matrix th, .matrix td { font-size:8.7px; padding:4px 5px; }
+  .matrix td:first-child { background:#eaf1fb; font-weight:700; width:15%; }
+  .persona { border:1.5px solid #0f1b2d; border-radius:7px; padding:10px 12px; margin-bottom:10px; break-inside:avoid; }
+  .persona h3 { margin:0 0 5px; font-size:12.5px; color:#0f1b2d; }
+  .persona .row { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:5px; }
+  .persona .row div { font-size:9.6px; }
+  .persona .row b { color:#1f6feb; display:block; text-transform:uppercase; font-size:8.6px; letter-spacing:.3px; }
+  .persona .angle { font-size:10px; background:#f4f7fd; border-left:3px solid #1f6feb; padding:5px 8px; border-radius:3px; }
+  .concept { border:1.5px solid #0f1b2d; border-radius:7px; padding:11px 13px; margin-bottom:12px; break-inside:avoid; }
+  .concept .hd { display:flex; justify-content:space-between; align-items:baseline; gap:8px; border-bottom:1.5px solid #0f1b2d; padding-bottom:5px; margin-bottom:7px; }
+  .concept .hd b { font-size:12.5px; }
+  .tags span { display:inline-block; background:#eaf1fb; border-radius:3px; padding:1px 6px; font-size:8.6px; margin:1px 2px 1px 0; }
+  .concept .field { margin-bottom:5px; font-size:10px; }
+  .concept .field b { color:#1f6feb; text-transform:uppercase; font-size:8.6px; letter-spacing:.3px; }
+  .headline { background:#0f1b2d; color:#fff; padding:6px 9px; border-radius:4px; font-weight:700; font-size:11px; margin:5px 0; }
+  .primary { background:#f4f7fd; border-radius:4px; padding:8px 10px; font-size:10px; white-space:pre-line; }
+  .callout { background:#fff8e6; border:1px solid #e6b800; border-radius:5px; padding:9px 11px; font-size:10px; margin-top:8px; }
+  ul { margin:5px 0 0; padding-left:17px; } li { margin-bottom:3px; }
+  .two { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .foot { text-align:center; margin-top:26px; font-size:9px; color:#6b7078; border-top:1px solid #c3c8d0; padding-top:8px; }
+  .disc { font-size:8.6px; color:#5a6572; font-style:italic; }
+</style>
+</head>
+<body>
+
+<h1>Case Source — Meta Creative Strategy</h1>
+<p class="sub">Free 60-second car-accident case-value / eligibility check → qualified lead → intake call. Brand: TopCrashLawyer.</p>
+<p class="meta">Vertical: legal lead-gen (auto-accident injury claims) &nbsp;•&nbsp; Funnel: Meta paid → multi-step qualification form (go.topcrashlawyer.com/landing-page) → intake team → signed case &nbsp;•&nbsp; Applying BAD Marketing's Persona × Awareness creative system.</p>
+
+<div class="kpi-bar">
+  <div class="kpi"><b>Primary KPI</b><span>Cost / Qualified Lead</span></div>
+  <div class="kpi"><b>Target CPL</b><span>$100–$120</span></div>
+  <div class="kpi"><b>Target CAC</b><span>≤ $1,800</span></div>
+  <div class="kpi"><b>Win Threshold</b><span>3–5 signed cases<br><span style="font-size:9px;font-weight:400">or Cost/SQL ≤ $150</span></span></div>
+</div>
+
+<section>
+  <h2>1 · Offer Snapshot</h2>
+  <table>
+    <tr><th style="width:22%">What</th><td>A free, no-obligation case-value / eligibility assessment. The prospect answers a short set of questions about their accident (type, timing, state, treatment, fault, current attorney status) and, in ~60 seconds, gets an estimate of whether their claim may be worth more than the insurance offer. Qualified leads are routed to an intake team, then to a partner attorney.</td></tr>
+    <tr><th>Price / risk</th><td>Free to check. No upfront cost to the client — attorney representation runs on contingency. The ad-side promise is the <em>assessment</em>, never a settlement amount.</td></tr>
+    <tr><th>Core mechanism</th><td>"The first insurance offer is almost never what the case is worth." The form surfaces categories most victims leave out (ongoing medical, lost income, future care) so they can see the gap <em>before</em> they sign.</td></tr>
+    <tr><th>Audience</th><td>Recent U.S. accident victims (ideally within 30 days, statute window up to 24 months), roughly 35–44, lower-to-middle income, injured, financially pressured, sitting on or expecting a settlement offer. Broad U.S. targeting, later optimized by state.</td></tr>
+    <tr><th>Landing page</th><td>go.topcrashlawyer.com/landing-page — headline "Did Insurance Pay You Enough After Your Accident?" 11-step form. Page carries the "Attorney Advertising" label and the Meta non-affiliation notice.</td></tr>
+    <tr><th>Proven proof assets</th><td>Native testimonial screenshots (Reddit r/LifeProTips, Twitter/X, Gmail) built as dramatizations; settlement-gap framing ($X almost accepted → $Y+ actual worth); qualification checklists; before/after split visuals; AI-UGC talking-head videos.</td></tr>
+    <tr><th>Formats live now</th><td>Ugly/text-on-image statics (Payout Disparity, Pain Cost Spiral), Qualification checklists, native social-screenshot statics (Reddit/Twitter/Gmail), AI-UGC Reels.</td></tr>
+    <tr><th>What's working</th><td><b>Premature Settlement Risk</b> (native testimonial screenshots) is the clear volume winner — ~$51K spend, 34 signed cases, ~$1,507 CAC. <b>Qualification Check</b> wins on efficiency (~$67 cost/SQL). <b>Offer vs Evaluation</b> and <b>Payout Disparity</b> also flagged winners. AI-UGC video hooks are strong (Breaking News 78% hook rate) but haven't converted to cases yet.</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>2 · Micro-Personas</h2>
+
+  <div class="persona">
+    <h3>A · "The Suspicious Settler"</h3>
+    <div class="row">
+      <div><b>Primary desire</b>Get every dollar their injury is actually worth — not the fast check.</div>
+      <div><b>Core fear</b>Signing away tens of thousands because they didn't know any better.</div>
+      <div><b>Core belief</b>"Something about this offer feels off, but I don't know how to prove it."</div>
+    </div>
+    <div class="angle"><b>Unlocks:</b> the payout-gap / "same injury, different check" angle. Validate the gut feeling, then hand them a free way to confirm it before they settle.</div>
+  </div>
+
+  <div class="persona">
+    <h3>B · "The Overwhelmed & Broke"</h3>
+    <div class="row">
+      <div><b>Primary desire</b>Make the medical bills and lost income stop stacking up.</div>
+      <div><b>Core fear</b>Taking a lowball just to survive this month, then drowning anyway.</div>
+      <div><b>Core belief</b>"I can't afford to wait, and I can't afford a lawyer either."</div>
+    </div>
+    <div class="angle"><b>Unlocks:</b> the Pain Cost Spiral angle — bills rising while the offer stays flat. Lead with "free, no lawyer needed, 60 seconds" to remove cost + friction fear.</div>
+  </div>
+
+  <div class="persona">
+    <h3>C · "The Lawyer-Averse Skeptic"</h3>
+    <div class="row">
+      <div><b>Primary desire</b>Handle it without getting dragged into a courtroom or a shark's office.</div>
+      <div><b>Core fear</b>That "getting a lawyer" means stress, fees, and being taken advantage of twice.</div>
+      <div><b>Core belief</b>"Lawyers are a hassle; I'd rather just deal with insurance myself."</div>
+    </div>
+    <div class="angle"><b>Unlocks:</b> the "no lawyer, no commitment, just check" angle + native testimonial screenshots (peer, not law firm). Lowers the intimidation wall the funnel exists to solve.</div>
+  </div>
+
+  <div class="persona">
+    <h3>D · "The Rushed Target"</h3>
+    <div class="row">
+      <div><b>Primary desire</b>Get the insurance adjuster off their back with confidence, not panic.</div>
+      <div><b>Core fear</b>Being pressured into a bad decision while still hurt and foggy.</div>
+      <div><b>Core belief</b>"They keep calling — maybe I should just take it and be done."</div>
+    </div>
+    <div class="angle"><b>Unlocks:</b> "the faster they push, the more it's worth" — name the insurer as the antagonist and reframe fast offers as a tell. Adds urgency without an outcome promise.</div>
+  </div>
+
+  <div class="persona">
+    <h3>E · "The Wait-and-See Under-Treater"</h3>
+    <div class="row">
+      <div><b>Primary desire</b>Believe it "wasn't that bad" and move on with life.</div>
+      <div><b>Core fear</b>(Latent) — hasn't yet realized a soft-tissue injury can be a real claim.</div>
+      <div><b>Core belief</b>"It was a minor accident. I'm a little sore. There's nothing to claim."</div>
+    </div>
+    <div class="angle"><b>Unlocks:</b> the Unaware / education angle — "minor" whiplash and soreness that turns into a real case. This is the under-worked top of funnel (see matrix).</div>
+  </div>
+</section>
+
+<section>
+  <h2>3 · Persona × Awareness Matrix</h2>
+  <p class="meta">Each cell is a one-line, Case-Source-specific ad angle. The account is heavy in Problem/Solution Aware; the <b>Unaware</b> column (education / "you might have a case you're ignoring") is the biggest untapped market and is emphasized below.</p>
+  <table class="matrix">
+    <tr>
+      <th></th>
+      <th>Unaware <span style="font-weight:400">(under-used)</span></th>
+      <th>Problem Aware</th>
+      <th>Solution Aware</th>
+      <th>Product Aware</th>
+      <th>Most Aware</th>
+    </tr>
+    <tr>
+      <td>A · Suspicious Settler</td>
+      <td>"The first offer isn't a number — it's an opening bid."</td>
+      <td>Same injury, wildly different checks — here's why.</td>
+      <td>A free check shows what insurance leaves out of your offer.</td>
+      <td>Why our 60-second check beats guessing or Googling it.</td>
+      <td>Don't sign until you've run your case value — free.</td>
+    </tr>
+    <tr>
+      <td>B · Overwhelmed &amp; Broke</td>
+      <td>"Bills after a crash keep coming long after the offer stops."</td>
+      <td>Your bills are piling up. Your offer isn't.</td>
+      <td>Check what you're owed without paying a lawyer a cent.</td>
+      <td>Free, no-lawyer, 60-second check — built for people who can't wait.</td>
+      <td>Start your free case check now — no upfront cost, ever.</td>
+    </tr>
+    <tr>
+      <td>C · Lawyer-Averse Skeptic</td>
+      <td>"You don't need a lawyer to find out what your claim is worth."</td>
+      <td>You can check your case without ever talking to a lawyer first.</td>
+      <td>A form, not a firm — see your options in 60 seconds.</td>
+      <td>Real people used this exact free check before deciding anything.</td>
+      <td>No commitment, no fees to check. See where you stand.</td>
+    </tr>
+    <tr>
+      <td>D · Rushed Target</td>
+      <td>"Ever wonder why the offer comes so fast?"</td>
+      <td>The faster insurance pushes, the more it may be worth.</td>
+      <td>Before you say yes, run it through a free evaluation.</td>
+      <td>The 60-second step that puts you back in control of the call.</td>
+      <td>Slow them down. Check your case value first — free.</td>
+    </tr>
+    <tr>
+      <td>E · Wait-and-See Under-Treater</td>
+      <td>"'Minor' whiplash still shows up on a claim. Most people never check."</td>
+      <td>Sore after a 'small' accident? That can still be a real case.</td>
+      <td>A free check tells you if your 'minor' accident actually qualifies.</td>
+      <td>See if you qualify in 60 seconds — even for a minor crash.</td>
+      <td>You may have 24 months to file. Check before the window closes.</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>4 · Format Rotation Plan</h2>
+  <table>
+    <tr><th style="width:20%">Format</th><th>Fit for Case Source</th></tr>
+    <tr><td><b>Native Social Screenshot</b><br>(Reddit / Twitter / Gmail)</td><td><b>Lead format — proven winner.</b> Peer-to-peer testimonials in a familiar UI beat "law firm" framing for the Lawyer-Averse and Rushed personas. Every one carries the dramatization disclaimer.</td></tr>
+    <tr><td><b>Ugly / Text-on-Image</b></td><td>Strong for the payout-gap and Pain Cost Spiral angles. Bold headline, settlement-gap numbers, "free / 60 seconds" visible. Keep text coverage &lt;20%.</td></tr>
+    <tr><td><b>Qualification Checklist</b></td><td>Efficient lead driver (~$67 cost/SQL). Feels like an official eligibility check, not a quiz. Best for Problem-Aware "do I qualify" intent.</td></tr>
+    <tr><td><b>AI-UGC Reels</b></td><td>Great hooks (up to 78% hook rate) but not yet converting to cases. Use for top-of-funnel reach (Unaware/Problem Aware); vary talent gender/age to register as distinct assets.</td></tr>
+    <tr><td><b>Meme</b></td><td>Calculated-risk slot only. Insurance-adjuster tension (e.g. "the offer vs. the bills") can earn cheap reach, but tone must stay compliant and non-flippant given the vertical.</td></tr>
+  </table>
+  <div class="two" style="margin-top:10px;">
+    <table>
+      <tr><th>Week</th><th>Format focus</th><th>Matrix cells to pull</th></tr>
+      <tr><td>1</td><td>Native Screenshot (scale the winner)</td><td>C-Problem, D-Problem, A-Solution, E-Unaware, B-MostAware</td></tr>
+      <tr><td>2</td><td>Qualification Checklist</td><td>B-Problem, A-Product, E-Product, C-Solution, D-MostAware</td></tr>
+      <tr><td>3</td><td>Ugly / Text-on-Image (payout gap)</td><td>A-Problem, B-Problem, D-Problem, A-MostAware, E-Solution</td></tr>
+      <tr><td>4</td><td>AI-UGC Reels (top-funnel push)</td><td>E-Unaware, D-Unaware, C-Unaware, B-Solution, A-Solution</td></tr>
+    </table>
+    <div class="callout"><b>Diversity note (beat Andromeda similarity):</b> a new script over the same creator in the same room reads as the <em>same</em> asset. To register as distinct, change multiple signals at once — swap the vehicle (Reddit → Gmail → checklist → UGC), swap talent gender/age, swap the emotional entry (warning vs. relief vs. curiosity), and swap the angle (loss-frame vs. gain-frame). Each week's five cells already vary persona + stage; keep the visual signature moving with them.</div>
+  </div>
+</section>
+
+<section>
+  <h2>5 · This Week's Launch Batch — 5 Concepts (Native Screenshot week)</h2>
+
+  <div class="concept">
+    <div class="hd"><b>1. "Why I didn't take the $8,000"</b><span class="tags"><span>Persona C · Problem Aware</span></span></div>
+    <div class="tags"><span>Framework: Origin Story</span><span>Hook: Confession</span><span>Format: Native Reddit screenshot</span></div>
+    <div class="field"><b>On-image headline</b></div>
+    <div class="headline">LPT: The insurance offer is not what your accident case is worth.</div>
+    <div class="field"><b>Primary text</b></div>
+    <div class="primary">Insurance called me three days after the crash and offered $8,000 like it was a favor.
+
+My neck still hurt and the bills hadn't even stopped coming, so something about the timing felt off. I almost took it anyway just to be done.
+
+Before I signed, I ran my accident through a free case-check form I found — no lawyer, no commitment, about a minute of questions.
+
+It turned out cases like mine can be worth far more once ongoing medical and lost income get counted. I'm glad I slowed down and looked first.
+
+If you're sitting on an offer and something feels off, it costs nothing to check where you stand 👇</div>
+    <div class="field"><b>Visual</b> Native Reddit post card (r/LifeProTips), realistic username/upvotes. Legible disclaimer bar at the bottom.</div>
+    <div class="field"><b>CTA</b> Learn More → "Check Your Case Value (Free)"</div>
+  </div>
+
+  <div class="concept">
+    <div class="hd"><b>2. "The faster they push, the more it's worth"</b><span class="tags"><span>Persona D · Problem Aware</span></span></div>
+    <div class="tags"><span>Framework: Pain-Agitate-Solve</span><span>Hook: Bold Claim</span><span>Format: Native Twitter/X screenshot</span></div>
+    <div class="field"><b>On-image headline</b></div>
+    <div class="headline">Insurance rushing your settlement is a tell, not a favor.</div>
+    <div class="field"><b>Primary text</b></div>
+    <div class="primary">The adjuster kept calling. Two voicemails a day, always pushing me to "wrap it up fast" for $6,500.
+
+I was still hurt and still foggy, and the pressure made me want to just sign so it would stop. Then a friend pointed something out.
+
+The faster they try to close a claim, the more likely it's worth more than the number on the table. It was never about being fair to me.
+
+So before I agreed to anything, I ran my accident through a free evaluation. Seeing what the offer left out changed how I handled every call after that.
+
+You don't get a second chance once you settle. It's free to check first 👇</div>
+    <div class="field"><b>Visual</b> Native X post card, plausible handle + timestamp. Disclaimer line legible at bottom.</div>
+    <div class="field"><b>CTA</b> Learn More → "See What Your Case Is Worth (Free)"</div>
+  </div>
+
+  <div class="concept">
+    <div class="hd"><b>3. "Almost settled for $7,500…"</b><span class="tags"><span>Persona A · Solution Aware</span></span></div>
+    <div class="tags"><span>Framework: Proof Stack</span><span>Hook: Story Open</span><span>Format: Native Gmail screenshot</span></div>
+    <div class="field"><b>On-image headline</b></div>
+    <div class="headline">Subject: Almost settled for $7,500…</div>
+    <div class="field"><b>Primary text</b></div>
+    <div class="primary">After my accident I had neck pain that wouldn't quit, but the insurance company treated it like nothing and offered $7,500 to close it out fast.
+
+I almost accepted, just to move on with my life.
+
+Before I did, I ran my accident through a free case-evaluation form I came across online. It walked me through the questions in about a minute.
+
+What I learned is that cases like mine can be worth a lot more once the full picture — treatment, time off work, ongoing pain — actually gets counted. I'm really glad I checked before I rushed into anything.
+
+Sharing it below in case you're sitting in the same spot 👇</div>
+    <div class="field"><b>Visual</b> Native Gmail inbox + open-email view, "Emily M." sender. Disclaimer legible at bottom.</div>
+    <div class="field"><b>CTA</b> Learn More → "Check My Case (Free, 60 sec)"</div>
+  </div>
+
+  <div class="concept">
+    <div class="hd"><b>4. "'Minor' whiplash still shows up on a claim"</b><span class="tags"><span>Persona E · Unaware (top-funnel unlock)</span></span></div>
+    <div class="tags"><span>Framework: Contrarian</span><span>Hook: Question</span><span>Format: Native Reddit screenshot</span></div>
+    <div class="field"><b>On-image headline</b></div>
+    <div class="headline">"It was a minor accident, I'm just a little sore." — most people who say this never check.</div>
+    <div class="field"><b>Primary text</b></div>
+    <div class="primary">Was your accident "not that bad"? A little sore, nothing broken, so you figured there was nothing to claim?
+
+That's exactly what I thought. I waved off the stiffness in my neck and back for weeks and never looked into it.
+
+Here's what I didn't know: soft-tissue injuries from a small crash can still be a real case, and the clock quietly runs on how long you have to do anything about it.
+
+I only found out because someone showed me a free form that checks whether your accident qualifies at all. It took about a minute and asked me nothing scary.
+
+If you had any accident in the last couple of years and brushed it off, it costs nothing to see if you actually have something 👇</div>
+    <div class="field"><b>Visual</b> Native Reddit post (r/legaladvice-style), realistic UI. Disclaimer legible at bottom.</div>
+    <div class="field"><b>CTA</b> Learn More → "See If You Qualify (Free)"</div>
+  </div>
+
+  <div class="concept">
+    <div class="hd"><b>5. "Don't sign until you've checked"</b><span class="tags"><span>Persona B · Most Aware</span></span></div>
+    <div class="tags"><span>Framework: Direct Offer</span><span>Hook: Direct Value</span><span>Format: Native Twitter/X screenshot</span></div>
+    <div class="field"><b>On-image headline</b></div>
+    <div class="headline">Before you sign anything: run your case value. It's free and takes a minute.</div>
+    <div class="field"><b>Primary text</b></div>
+    <div class="primary">If your bills are stacking up and the insurance offer is just sitting there, I get the urge to take it and be done.
+
+I was there. The one thing I'd tell anyone in that spot is simple: don't sign until you've actually checked what your case could be worth.
+
+There's a free form that walks you through it in about a minute. No lawyer required to start, no upfront cost, no obligation to do anything after.
+
+The worst case is you spend 60 seconds and confirm the offer was fair. The best case is you find out it wasn't — before it's too late to matter.
+
+The form's below 👇</div>
+    <div class="field"><b>Visual</b> Native X post, plausible handle/timestamp. Disclaimer legible at bottom.</div>
+    <div class="field"><b>CTA</b> Learn More → "Check Your Case Value (Free)"</div>
+  </div>
+</section>
+
+<section>
+  <h2>6 · Angle Bank (mined + net-new)</h2>
+  <div class="two">
+    <div>
+      <p class="meta"><b>Proven / mined (already winning or briefed):</b></p>
+      <ul>
+        <li><b>Premature Settlement Risk</b> — "I almost settled for $X, turned out worth $Y+." (top winner)</li>
+        <li><b>Payout Disparity</b> — "Same injury / same crash, different checks." Split visual.</li>
+        <li><b>Pain Cost Spiral</b> — "Your bills are piling up. Your offer isn't."</li>
+        <li><b>Qualification Check</b> — "Do you qualify for compensation?" 5-item checklist.</li>
+        <li><b>Offer vs Evaluation</b> — the insurer's offer vs. an independent case evaluation.</li>
+        <li><b>Hidden Value</b> — "What insurance leaves out" (medical, lost income, future care).</li>
+        <li><b>Insurer-as-antagonist</b> — "They count on you not checking."</li>
+        <li><b>24-month clock</b> — statute-of-limitations urgency without a promise.</li>
+      </ul>
+    </div>
+    <div>
+      <p class="meta"><b>Net-new to replenish the matrix:</b></p>
+      <ul>
+        <li><b>"Minor accident" education</b> (Unaware) — soft-tissue claims people ignore.</li>
+        <li><b>"Why the offer comes so fast"</b> (Unaware) — the speed-is-a-tell reframe as curiosity.</li>
+        <li><b>"A form, not a firm"</b> — reassure the lawyer-averse it starts with no attorney.</li>
+        <li><b>"The 60-second step most people skip"</b> — the check itself as the hero.</li>
+        <li><b>Adjuster-call script</b> — "what to say next time they call" value-bomb.</li>
+        <li><b>"First offer = opening bid"</b> — negotiation reframe for the Suspicious Settler.</li>
+        <li><b>Partner-attorney story</b> (partnership ad) — an intake-team member explains, from the human side, why first offers run low. New signal set for incremental reach.</li>
+        <li><b>Loss-vs-gain A/B</b> — same story told as "money I almost lost" vs "money I gained."</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>7 · Compliance &amp; Brand-Voice Notes</h2>
+  <table>
+    <tr><th style="width:26%">Guardrail</th><th>Rule for every Case Source ad</th></tr>
+    <tr><td>No outcome guarantees</td><td>Never promise or guarantee a settlement amount. Frame all numbers as illustrative and conditional ("cases <em>can</em> be worth," "<em>may</em> qualify," "depending on the details"). The ad promises the <em>free check</em>, not the money.</td></tr>
+    <tr><td>Dramatizations must be labeled</td><td>All testimonial screenshots (Reddit/Twitter/Gmail) are dramatizations using stock photos, not real clients. Every asset carries the disclaimer legibly on-image.</td></tr>
+    <tr><td>Required disclaimer</td><td class="disc">"Attorney Ad. Each case is unique; past results do not guarantee future outcomes. This message includes a dramatization using a stock photo and is not a real client or real event. Legal outcomes vary based on the specific facts, evidence, and applicable law. Completing a case review form does not create an attorney-client relationship."</td></tr>
+    <tr><td>No personal legal attributes</td><td>Avoid implying "you have a case," "you are owed $X," or "you will win." Keep it conditional: "you <em>may</em> qualify," "see <em>if</em> your accident qualifies." Don't imply a viewer's specific medical or legal condition.</td></tr>
+    <tr><td>Meta non-affiliation</td><td>The firm is not affiliated with or endorsed by Meta/Facebook/Instagram (stated on LP; don't contradict in ad copy).</td></tr>
+    <tr><td>No attorney-client relationship</td><td>Filling the form is a case review, not representation. Never imply the prospect is "now a client."</td></tr>
+    <tr><td>Text coverage</td><td>Keep on-image text under ~20% for delivery; ensure legibility at 400px width (mobile-first).</td></tr>
+    <tr><td>Brand voice</td><td>Direct, authoritative, and empathetic to financial stress without being patronizing. A trusted advisor pre-screening you — like a bank pre-qualifying a loan — not a pushy TV lawyer. No legal jargon, no hype, no fear-mongering beyond the honest stakes.</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>8 · Sources</h2>
+  <ul>
+    <li>Landing page: go.topcrashlawyer.com/landing-page (offer, 11-step form, "Attorney Advertising" + Meta non-affiliation notices).</li>
+    <li>Local briefs (Case Source): Payout Disparity, Pain Cost Spiral, Offer vs Evaluation, Qualification Form + Variations, Reddit Variations (Winner), Twitter/Gmail testimonials, AI-UGC Vids — for angles, avatars, awareness levels, and the required disclaimer language.</li>
+    <li>Performance: Case Source 2.0 Creative Tracker &amp; Copy Tracking Sheet (static + video concepts) — identified Premature Settlement Risk, Qualification Check, Offer vs Evaluation, Payout Disparity as winners; ~$100–120 CPL / ~$1,800 CAC targets.</li>
+    <li>System: Creative System One-Page SOP (Persona × Awareness, 5 formats, frameworks, hooks, Human Copy Codex) + Creative Meta Playbook (Andromeda diversity, micro-personas, portfolio mindset, partnership ads).</li>
+  </ul>
+</section>
+
+<p class="foot">Case Source — Meta Creative Strategy · Built on BAD Marketing's Persona × Awareness system · Internal use only · Prepared 2026-07-19</p>
+
+</body>
+</html>

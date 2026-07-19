@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VAM — Meta Creative Strategy</title>
+<style>
+  @page { size: letter portrait; margin: 0.45in; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #14161a; margin: 0; padding: 20px 26px; line-height: 1.4; font-size: 11px;
+  }
+  h1 { font-size: 23px; margin: 0 0 3px; letter-spacing: -.3px; }
+  h2.section {
+    font-size: 12px; margin: 22px 0 8px; text-transform: uppercase; letter-spacing: .5px;
+    background: #14161a; color: #fff; padding: 5px 10px; border-radius: 4px;
+  }
+  .sub { color: #d9480f; font-weight: 700; font-size: 11px; margin: 0 0 4px; }
+  .hdr-meta { font-size: 10.5px; color: #3a3f47; margin: 0; }
+  .hdr-meta b { color: #14161a; }
+  .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 10px; }
+  .kpi { border: 1.5px solid #14161a; border-radius: 6px; padding: 7px 9px; }
+  .kpi .lbl { font-size: 8.5px; text-transform: uppercase; letter-spacing: .3px; color: #6b7078; }
+  .kpi .val { font-size: 16px; font-weight: 800; letter-spacing: -.3px; }
+  .kpi .goal { font-size: 8.6px; color: #d9480f; font-weight: 700; }
+  table { width: 100%; border-collapse: collapse; margin-top: 6px; font-size: 9.4px; }
+  th, td { border: 1px solid #b9bcc2; padding: 4px 6px; text-align: left; vertical-align: top; }
+  th { background: #fff3e6; font-weight: 700; }
+  .matrix th, .matrix td { font-size: 8.6px; padding: 3px 4px; }
+  .matrix td:first-child, .matrix th:first-child { background: #fff3e6; font-weight: 700; width: 13%; }
+  .box { border: 1.5px solid #14161a; border-radius: 7px; padding: 10px 13px; margin-top: 8px; break-inside: avoid; }
+  .persona { border-left: 4px solid #d9480f; }
+  .persona h3 { margin: 0 0 4px; font-size: 12.5px; }
+  .persona .traits { font-size: 10px; margin: 0 0 4px; }
+  .persona .traits b { color: #d9480f; }
+  .persona .angle { font-size: 10px; font-style: italic; color: #3a3f47; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .concept { border: 1.5px solid #14161a; border-radius: 7px; padding: 11px 13px; margin-top: 10px; break-inside: avoid; }
+  .concept .tagline { font-size: 9px; font-weight: 700; color: #fff; background: #d9480f; display: inline-block; padding: 2px 7px; border-radius: 3px; margin-bottom: 5px; }
+  .concept h3 { margin: 0 0 5px; font-size: 13px; }
+  .concept .meta { font-size: 9px; color: #6b7078; margin-bottom: 6px; }
+  .concept .field { margin: 5px 0; font-size: 10px; }
+  .concept .field b { color: #14161a; }
+  .concept .headline { font-size: 11.5px; font-weight: 800; background: #fff3e6; padding: 4px 7px; border-radius: 4px; border-left: 3px solid #d9480f; }
+  .concept .primary { font-size: 10px; white-space: pre-line; background: #f7f8fa; padding: 7px 9px; border-radius: 5px; }
+  .tag { display:inline-block; background:#ffe8cc; border-radius:3px; padding:1px 5px; margin:1px 3px 1px 0; font-size:8.8px; }
+  ul { margin: 4px 0 0; padding-left: 17px; }
+  li { margin-bottom: 3px; }
+  .note { font-size: 9px; color: #6b7078; margin-top: 4px; }
+  .foot { text-align:center; margin-top: 18px; font-size:8.5px; color:#6b7078; }
+  .warn { border-color: #b02a37; }
+  .warn td:first-child { background: #fbe9eb; }
+  b.k { color:#d9480f; }
+  .two-col { column-count: 2; column-gap: 16px; font-size: 9.6px; }
+  .two-col li { break-inside: avoid; }
+</style>
+</head>
+<body>
+
+<h1>Value Added Moving (VAM) — Meta Creative Strategy</h1>
+<p class="sub">Full-service long-distance (interstate) moving — free binding quote, starting at $1,597</p>
+<p class="hdr-meta"><b>Funnel:</b> Meta Lead ad → LP quote form → connected call → booked move &nbsp;•&nbsp; <b>Primary KPI:</b> Cost per connected call (proxy) &amp; ROAS &nbsp;•&nbsp; <b>Win threshold:</b> ROAS ≥ 2.0x sustained, or a static holding ≥ $20K spend above 1.3x ROAS = scale-worthy winner</p>
+
+<div class="kpi-row">
+  <div class="kpi"><div class="lbl">ROAS (current → goal)</div><div class="val">1.58x</div><div class="goal">target 2.0x</div></div>
+  <div class="kpi"><div class="lbl">Cost / connected call</div><div class="val">$381</div><div class="goal">target $250</div></div>
+  <div class="kpi"><div class="lbl">CPL</div><div class="val">$71.59</div><div class="goal">CAC $1,058 → $750</div></div>
+  <div class="kpi"><div class="lbl">Close rate (connected)</div><div class="val">36%</div><div class="goal">$550K spend to date</div></div>
+</div>
+
+<!-- 1. OFFER SNAPSHOT -->
+<h2 class="section">1 · Offer Snapshot</h2>
+<table>
+  <tr><th style="width:22%">Offer</th><td>Full-service interstate move handled door-to-door: dedicated move coordinator, professional packing, loading, transport, delivery and unpacking. <b>Transparent, binding quote — starting at $1,597.</b> The quote you get is the price you pay.</td></tr>
+  <tr><th>Price anchor</th><td>"Starting at $1,597" is the single most proven line in the account (Price Anchoring = 1.32–2.01x ROAS). Actual price is weight × distance + optional packing/crating, so all copy uses <b>"starting at"</b> / real customer examples — never a flat guaranteed price.</td></tr>
+  <tr><th>Audience</th><td>Individuals & families planning a cross-country move, primarily 2–4+ bedroom households. Nationwide (US). No geo-in-creative (city/route copy is a confirmed loser).</td></tr>
+  <tr><th>Landing page</th><td>go.valueaddedmoving.com/long-distance → free quote form (size, origin, destination, dates) → phone call with coordinator → booking.</td></tr>
+  <tr><th>Proof assets</th><td>Licensed HHG broker — <b>DOT #3488475 · MC #1147286</b>; Trustpilot "Excellent" (~4.3★, quoted as 4.8★ in-creative from internal data — verify before scaling); 12,000+ families moved; binding-estimate / "no surprise fees" promise; UGC testimonials (Asian-woman & white-woman creators drive 8–11% CTR).</td></tr>
+  <tr><th>Formats in use</th><td>Faceless statics dominate: <b>Gmail</b> (5 winners, cheapest CPM $31–43), <b>TwitterStyle</b> (1.75x, highest single), <b>TruckBack</b> (3 price winners), <b>TruckFreeway</b> (2.01x), <b>AppleNote</b> (emerging, cost-exposure). UGC testimonial video is the strongest video vehicle.</td></tr>
+</table>
+<p class="note"><b>Compliance flag baked in:</b> VAM is a <b>broker</b>, not the carrier. Avoid "our trucks / our crew" as literal claims; keep to "full-service, licensed &amp; insured nationwide network." No guaranteed flat price, no guaranteed delivery dates, no damage-free guarantees.</p>
+
+<!-- 2. MICRO-PERSONAS -->
+<h2 class="section">2 · Micro-Personas (psychographic, not demographic)</h2>
+
+<div class="box persona">
+  <h3>P1 — The Burned Shopper</h3>
+  <p class="traits"><b>Primary desire:</b> a price that won't change on move day &nbsp;•&nbsp; <b>Core fear:</b> getting quoted low then ambushed with fuel/stair/long-carry fees once the truck is loaded &nbsp;•&nbsp; <b>Core belief:</b> "every mover lowballs the quote and pads the bill."</p>
+  <p class="angle">Unlocks: Cost Exposure + binding-quote transparency. This is the account's richest emotional vein — it powers Social Proof Shock (the #1 angle) and Cost Exposure (emerging winner) at once.</p>
+</div>
+
+<div class="box persona">
+  <h3>P2 — The Overwhelmed Family Mover</h3>
+  <p class="traits"><b>Primary desire:</b> to hand the whole move to someone competent and stop juggling it &nbsp;•&nbsp; <b>Core fear:</b> the move swallowing their family for weeks — packing at midnight, renting a truck, breaking things &nbsp;•&nbsp; <b>Core belief:</b> "a cross-country move is going to be chaos no matter what."</p>
+  <p class="angle">Unlocks: Emotional Relief + Full-Service ("you don't lift a finger"). Softer, warmer register — pairs with UGC and AppleNote. Under-served vs. the price-heavy library.</p>
+</div>
+
+<div class="box persona">
+  <h3>P3 — The Deal Validator</h3>
+  <p class="traits"><b>Primary desire:</b> proof they got the best price before they commit &nbsp;•&nbsp; <b>Core fear:</b> signing with the wrong company and finding out a neighbor paid half &nbsp;•&nbsp; <b>Core belief:</b> "there's a better deal out there if I just compare one more."</p>
+  <p class="angle">Unlocks: Savings Quantification with concrete math ($4,200 vs $1,597) + "get one more quote before you sign." Most Aware / bottom-funnel closer.</p>
+</div>
+
+<div class="box persona">
+  <h3>P4 — The Quiet Planner</h3>
+  <p class="traits"><b>Primary desire:</b> to get ahead of a move they know is coming in a few months &nbsp;•&nbsp; <b>Core fear:</b> leaving it too late and paying a rush premium &nbsp;•&nbsp; <b>Core belief:</b> "I have time, I'll deal with it later" — hasn't questioned pricing yet.</p>
+  <p class="angle">Unlocks: the under-exploited early stages. Curiosity/Secret hooks ("the hidden fee in 90% of moving quotes") pull this cold audience in before they've gathered a single quote — key to the colder-audience mandate.</p>
+</div>
+
+<!-- 3. PERSONA x AWARENESS MATRIX -->
+<h2 class="section">3 · Persona × Awareness Matrix — one-line angles</h2>
+<table class="matrix">
+  <tr>
+    <th></th>
+    <th>Unaware <span style="font-weight:400">(under-used)</span></th>
+    <th>Problem Aware <span style="font-weight:400">(under-used)</span></th>
+    <th>Solution Aware</th>
+    <th>Product Aware</th>
+    <th>Most Aware</th>
+  </tr>
+  <tr>
+    <td>P1 Burned Shopper</td>
+    <td>The hidden fee sitting in 90% of moving quotes — and why nobody flags it.</td>
+    <td>Your moving quote is lying to you. Here's the trick they use.</td>
+    <td>Most movers lowball, then pad. VAM locks your price before the truck rolls.</td>
+    <td>"Same move, same distance — half the price." Why VAM's quote is the real one.</td>
+    <td>Binding quote, no surprise fees, starting at $1,597. Get the real number.</td>
+  </tr>
+  <tr>
+    <td>P2 Overwhelmed Family</td>
+    <td>The part of moving nobody warns you about isn't the cost — it's the chaos.</td>
+    <td>Packing at midnight, renting a truck, breaking your grandmother's china?</td>
+    <td>Move your whole home without lifting a finger — packing to delivery, one crew.</td>
+    <td>12,000 families handed VAM the whole move. Here's what that actually feels like.</td>
+    <td>Full-service, door-to-door, starting at $1,597. We handle all of it.</td>
+  </tr>
+  <tr>
+    <td>P3 Deal Validator</td>
+    <td>There's no Kelly Blue Book for a move — which is exactly why you overpay.</td>
+    <td>Most families accept the first quote. It's almost always inflated by $1,500+.</td>
+    <td>$4,200 vs $1,597 — same move, different company. Do the math before you sign.</td>
+    <td>Why families who compared 3 quotes still picked VAM.</td>
+    <td>Get one more quote before you commit. Free, 60 seconds, no obligation.</td>
+  </tr>
+  <tr>
+    <td>P4 Quiet Planner</td>
+    <td>The best time to price a cross-country move is before you think you need to.</td>
+    <td>Waiting until the last month is why most people overpay to move.</td>
+    <td>Lock your interstate price now, choose your date when you're ready.</td>
+    <td>See why early planners book VAM — a binding quote that doesn't expire on you.</td>
+    <td>Planning a move? Get your free binding quote today, move when you're ready.</td>
+  </tr>
+</table>
+<p class="note"><b>Read the matrix:</b> the account is over-indexed on the two right columns (Most/Product Aware, Offer/Social-Proof). The <b class="k">biggest untapped territory is Unaware &amp; Problem Aware</b> (left two columns) — Curiosity/Secret and Pain hooks that reach cold audiences before they've gathered a quote. That is exactly where the 1.58x → 2.0x ROAS gain lives, because right-column inventory is saturated and expensive.</p>
+
+<!-- 4. FORMAT ROTATION -->
+<h2 class="section">4 · Format Rotation Plan (4 weeks)</h2>
+<p style="font-size:10px; margin:2px 0 6px;">VAM's proven formats map cleanly onto the 5-format system. Faceless "screenshot" statics are the workhorse (Ugly-Ad logic — native, unbranded, text-forward); UGC video is the reach engine. Meme and pure lifestyle are calculated risks here.</p>
+<table>
+  <tr><th style="width:14%">Week</th><th style="width:20%">Lead format</th><th>Why / diversity note (change multiple signals)</th></tr>
+  <tr><td><b>Wk 1</b></td><td>Ugly Ad — Gmail / AppleNote faceless statics</td><td>Cheapest CPM ($31–43) and 5 proven winners. Push Cost Exposure &amp; Secret hooks into Problem/Unaware. Signal-diversify by rotating the mock format (inbox vs notes app) and the emotional frame, not just the copy.</td></tr>
+  <tr><td><b>Wk 2</b></td><td>UGC Reels / testimonial video</td><td>Reach engine — 8–11% CTR, 3–4x average. Rotate <b>different talent</b> (age, gender, ethnicity beyond the two proven creators), different rooms/settings, and a Problem-Solution vs. relief narrative so Andromeda reads distinct assets, not one signature.</td></tr>
+  <tr><td><b>Wk 3</b></td><td>Ugly Ad — TruckBack / TruckFreeway + TwitterStyle</td><td>Price grounded in a physical truck photo (TruckFreeway hit 2.01x) plus the highest single static (TwitterStyle 1.75x). Anchor $1,597 for Deal Validators &amp; Most Aware; wrap the same proof in a social-post vehicle to reach relatability-driven pockets.</td></tr>
+  <tr><td><b>Wk 4</b></td><td>Calculated risk — Meme + partnership/creator static</td><td>~15–20% swing budget. Drake / two-buttons meme on the "lowball quote vs binding quote" tension (shareable → cheaper CPMs); pair a whitelisted creator UGC with a native IG-story-style static. Fully different visual + narrative = incremental reach.</td></tr>
+</table>
+<p class="note"><b>Andromeda note:</b> the account's biggest similarity risk is that 90% of statics are the same "faceless mock screenshot" signature. To register as new assets, change <b>≥2 signals at once</b> — vehicle (inbox → truck → tweet → meme), human (add real UGC faces), and narrative frame (fear → relief → savings math) — not just the copy line.</p>
+
+<!-- 5. THIS WEEK'S BATCH -->
+<h2 class="section">5 · This Week's Launch Batch — 5 ready-to-launch concepts</h2>
+<p style="font-size:10px; margin:2px 0 8px;"><b>Focus:</b> push into the under-used cold stages. Format lead = <b>Gmail / AppleNote faceless statics</b> (Wk 1). Stages span Unaware → Most Aware; personas vary. Copy written to the Human Copy Codex (spoken, one idea per line, no AI-tells). Compliant: "starting at," no flat-price or delivery guarantees.</p>
+
+<div class="concept">
+  <span class="tagline">Concept 1 · CALCULATED-RISK · UNAWARE</span>
+  <h3>No Blue Book — P4 Quiet Planner × Unaware</h3>
+  <p class="meta">Framework: Contrarian &nbsp;|&nbsp; Hook: "What If" / Secret &nbsp;|&nbsp; Format: AppleNote (dark + light) &nbsp;|&nbsp; Lead type: Secret</p>
+  <p class="field"><b>On-image headline:</b></p>
+  <p class="headline">There's no Kelly Blue Book for your move. That's the whole problem.</p>
+  <p class="field"><b>Primary text:</b></p>
+  <p class="primary">Cars have a Blue Book. Homes have Zillow. Your cross-country move has nothing — no published rate, no way to know what it should cost.
+
+So most families just take the first number a mover gives them. And that number is almost always high.
+
+It was never your fault. The industry is built so you can't compare.
+
+VAM gives you a transparent, binding quote for a full-service interstate move — packing, loading, delivery, all of it — starting at $1,597. One quote tells you what your move should actually cost.
+
+See your real number. Free, 60 seconds.</p>
+  <p class="field"><b>Visual:</b> AppleNote screenshot — looks like a personal note someone jotted as a reminder. Title line = the headline. Raw, unpolished, mobile-native. Dark + light.</p>
+  <p class="field"><b>CTA:</b> See What Your Move Should Cost</p>
+</div>
+
+<div class="concept">
+  <span class="tagline">Concept 2 · PROVEN · PROBLEM AWARE</span>
+  <h3>Quote Trap — P1 Burned Shopper × Problem Aware</h3>
+  <p class="meta">Framework: Pain-Agitate-Solve &nbsp;|&nbsp; Hook: Bold Claim / Confession &nbsp;|&nbsp; Format: Gmail (dark + light) &nbsp;|&nbsp; Lead type: Problem-Solution</p>
+  <p class="field"><b>On-image headline:</b></p>
+  <p class="headline">Your moving quote is lying to you.</p>
+  <p class="field"><b>Primary text:</b></p>
+  <p class="primary">Here's the trick. They quote you low to win the job. Then, on move day, come the fuel surcharges, the stair fees, the long-carry charges, the "packing materials."
+
+By then your whole life is on the truck and you can't say no.
+
+That's how a $2,500 quote becomes a $4,800 bill.
+
+VAM locks your price before move day. A transparent, binding quote for a full-service move, no surprise fees, starting at $1,597 nationwide.
+
+Get a real quote — the kind that doesn't change when the truck shows up.</p>
+  <p class="field"><b>Visual:</b> Gmail mock notification — reads like an inbox alert. Subject line carries the headline; preview text delivers the trick. Informative, not salesy. Dark + light.</p>
+  <p class="field"><b>CTA:</b> Get an Honest Quote</p>
+</div>
+
+<div class="concept">
+  <span class="tagline">Concept 3 · PROVEN · SOLUTION AWARE</span>
+  <h3>Half The Bill — P3 Deal Validator × Solution Aware</h3>
+  <p class="meta">Framework: Proof Stack &nbsp;|&nbsp; Hook: Bold Claim (data) &nbsp;|&nbsp; Format: Gmail (dark + light) &nbsp;|&nbsp; Lead type: Problem-Solution</p>
+  <p class="field"><b>On-image headline:</b></p>
+  <p class="headline">$4,200 vs. $1,597. Same move. Different company.</p>
+  <p class="field"><b>Primary text:</b></p>
+  <p class="primary">The average long-distance move in the US runs over $4,000. Most of that is padding — fuel surcharges, stair carries, packing materials, "long walk" fees.
+
+VAM strips all of it out. Full-service, licensed and insured, nationwide. One transparent, binding price starting at $1,597.
+
+That's up to $2,600 that stays in your pocket.
+
+You're already comparing quotes. Get one more before you sign — it's free and it takes about a minute.</p>
+  <p class="field"><b>Visual:</b> Gmail mock — a "quote received" notification. The two dollar figures ($4,200 vs $1,597) are the dominant visual element. Dark + light.</p>
+  <p class="field"><b>CTA:</b> Get Your Free Quote</p>
+</div>
+
+<div class="concept">
+  <span class="tagline">Concept 4 · PROVEN · PRODUCT AWARE</span>
+  <h3>Almost Paid Double — P1 Burned Shopper × Product Aware</h3>
+  <p class="meta">Framework: Origin Story &nbsp;|&nbsp; Hook: Story Open / Social Proof &nbsp;|&nbsp; Format: TwitterStyle (native post) &nbsp;|&nbsp; Lead type: Story</p>
+  <p class="field"><b>On-image headline:</b></p>
+  <p class="headline">My sister almost paid $4,200 to move a 2-bedroom apartment.</p>
+  <p class="field"><b>Primary text:</b></p>
+  <p class="primary">She had three quotes. Every one was over $4,000.
+
+I told her to try VAM before she signed anything. Her quote came back at $1,890 — full service, door to door, binding, no hidden fees.
+
+Same move. Same distance. Almost half.
+
+I don't think she fully believes it even now.
+
+If you're moving out of state, at least get one free quote before you commit to whoever landed in your inbox first.</p>
+  <p class="field"><b>Visual:</b> TwitterStyle post mockup — reads like a real person's post, casual and slightly shocked. No branding in the post; VAM detail sits below the fold. Native, organic.</p>
+  <p class="field"><b>CTA:</b> Get Your Free Quote</p>
+</div>
+
+<div class="concept">
+  <span class="tagline">Concept 5 · CALCULATED-RISK · MOST AWARE (relief swing)</span>
+  <h3>Not One Finger — P2 Overwhelmed Family × Most Aware</h3>
+  <p class="meta">Framework: Direct Offer &nbsp;|&nbsp; Hook: Identity Call-out / Direct Value &nbsp;|&nbsp; Format: AppleNote (dark + light) &nbsp;|&nbsp; Lead type: Offer</p>
+  <p class="field"><b>On-image headline:</b></p>
+  <p class="headline">Move your whole home without lifting a finger. Starting at $1,597.</p>
+  <p class="field"><b>Primary text:</b></p>
+  <p class="primary">A cross-country move doesn't have to eat your family alive for three weeks.
+
+No packing at midnight. No renting a truck you've never driven. No hoping the china survives.
+
+One crew handles it all — packing, loading, delivery — door to door, with a binding quote so the price doesn't move on you.
+
+Over 12,000 families have already handed VAM the whole thing. Full-service interstate moves start at $1,597.
+
+Get your free quote and actually breathe for a second.</p>
+  <p class="field"><b>Visual:</b> AppleNote screenshot — feels like a relieved personal note ("finally booked the movers"). Warm, low-key. Dark + light. Tests the relief lane against the price-heavy library.</p>
+  <p class="field"><b>CTA:</b> Get My Free Quote</p>
+</div>
+
+<p class="note"><b>Batch logic:</b> one variable held loosely (faceless-mock family of formats) so learnings compare; stages span Unaware → Most Aware with 2 cold swings (C1, C5) as the calculated-risk quota; hook types vary (What-If, Bold Claim, Data, Story, Identity). C2–C4 are 70% proven territory; C1 &amp; C5 are the 15–20% swing at cold/relief audiences.</p>
+
+<!-- 6. ANGLE BANK -->
+<h2 class="section">6 · Angle Bank (mined + net-new)</h2>
+<ul class="two-col">
+  <li><b>Cost Exposure:</b> "How movers sneak extra fees onto move day" (emerging winner — expand to Unaware).</li>
+  <li><b>Binding vs estimate:</b> "Ask your mover one question: is this quote binding, or can it change?"</li>
+  <li><b>Social Proof Shock:</b> "Dodged a $4K bill" / "Almost paid double" (proven #1 family, 1.15–1.75x).</li>
+  <li><b>Price Anchor:</b> "Cross-country moves starting at $1,597" (proven top-2, 1.32–2.01x).</li>
+  <li><b>Savings Math:</b> concrete $4,200 → $1,597 comparison (beats vague "save 50%").</li>
+  <li><b>The overpay you never see:</b> "Most families overpay their move by $1,500 and never know it."</li>
+  <li><b>Full-Service Relief:</b> "You don't lift a finger" (P2, under-served relief lane).</li>
+  <li><b>Moving Checklist utility:</b> lead magnet framing (Emotional Relief, 1.35x proven).</li>
+  <li><b>No Blue Book:</b> "There's no published rate for your move — that's why you overpay."</li>
+  <li><b>Early Planner:</b> "Price your move before you think you need to" (net-new, P4 cold).</li>
+  <li><b>Inbox first-quote trap:</b> "Don't book whoever emailed you first."</li>
+  <li><b>Quote-that-expires reframe:</b> "A binding quote that doesn't expire on you."</li>
+  <li><b>Fear of Loss (net-new):</b> "Get the quote before rates climb / before your date books out."</li>
+  <li><b>Humor/Relatability:</b> "Flying funny" self-deprecating moving-chaos meme (1.10x, extend to Meme wk4).</li>
+  <li><b>Partnership/creator UGC:</b> real customer walk-through of their quote vs. a competitor's.</li>
+</ul>
+
+<!-- 7. COMPLIANCE -->
+<h2 class="section">7 · Compliance &amp; Brand-Voice Notes</h2>
+<table class="warn">
+  <tr><td style="width:26%">Broker, not carrier</td><td>VAM is a licensed <b>household-goods broker</b> (DOT #3488475, MC #1147286) coordinating a vetted carrier network — not the truck owner. Don't state "our trucks / our drivers" as literal fact. Safe: "full-service, licensed &amp; insured nationwide," "a dedicated crew handles your move." Truck photos are fine as brand imagery.</td></tr>
+  <tr><td>No flat-price guarantee</td><td>Always "<b>starting at $1,597</b>" or a real per-customer example ("her quote came back at $1,890"). Price is weight × distance + options. Never promise a fixed total sight-unseen.</td></tr>
+  <tr><td>"Binding" carefully</td><td>"Transparent, binding quote / no surprise fees" is the on-brand promise and matches the site. Don't extend it to "guaranteed no additional cost ever" — added services or inventory changes can move the price. Frame as "the quote you get is the price you pay for the move you described."</td></tr>
+  <tr><td>No delivery-date guarantee</td><td>Interstate delivery windows vary. Avoid "delivered by X" / "guaranteed on-time." Calendar/scheduling messaging is also a confirmed <i>performance</i> loser — double reason to skip it.</td></tr>
+  <tr><td>Proof numbers</td><td>Verify "12,000+ families" and "4.8★" against source before scaling — public Trustpilot shows ~4.3★ "Excellent." If unconfirmed, soften to "thousands of families" / "rated Excellent on Trustpilot."</td></tr>
+  <tr><td>No geo in creative</td><td>City-to-city and NY-specific copy are confirmed losers and narrow the audience. Keep creative nationwide; let the algorithm place it.</td></tr>
+  <tr><td>Brand voice</td><td>Static: direct, confident, savings-focused — a friend who found a deal and is sharing it. Video: authentic, relieved, genuinely surprised. No corporate polish, no announcement phrases, no AI-tells (unlock, seamless, game-changer).</td></tr>
+</table>
+
+<!-- 8. SOURCES -->
+<h2 class="section">8 · Sources</h2>
+<ul style="font-size:9.4px;">
+  <li><b>Frameworks:</b> Creative System One-Page SOP; Creative Meta Playbook (Andromeda / persona × awareness / diversity sliding scale).</li>
+  <li><b>VAM Master System Prompt &amp; client config:</b> <span class="tag">VAM Batch Generator/02_MASTER_SYSTEM_PROMPT.md</span> <span class="tag">.../clients/vam.json</span> — performance data, winners/losers, angle & awareness mapping, brand voice.</li>
+  <li><b>Brief skill:</b> <span class="tag">.../copywriter-skills/vam-brief-skill.md</span> — proven visual styles (Gmail, TwitterStyle, TruckBack, AppleNote, UGC, split-screen).</li>
+  <li><b>Real briefs mined:</b> <span class="tag">VAM_Static_Mixed_Angles_Q1_W4</span> <span class="tag">VAM_Static_Solution_Aware_Price_Trust</span> <span class="tag">mixed_angle_push_brief</span> (BAD folder).</li>
+  <li><b>Landing page / site:</b> go.valueaddedmoving.com/long-distance (JS-gated form); valueaddedmoving.com/how-it-works (offer, binding-quote process, DOT/MC licensing, broker status); Trustpilot (rating).</li>
+</ul>
+
+<p class="foot">VAM — Meta Creative Strategy &nbsp;•&nbsp; Built on the BAD Marketing creative system (Persona × Awareness matrix, 5 formats, Andromeda diversity) &nbsp;•&nbsp; Copy is launch-ready and lead-gen compliant.</p>
+
+</body>
+</html>
